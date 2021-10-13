@@ -56,7 +56,10 @@ body {
     justify-content: space-around;
     align-items: center;
     font-size: 2rem;
-    margin: 1rem;
+    margin: .5rem;
+    /* margin-top: 100%; */
+    /* This down is just for vanity */
+    box-shadow: 5px 5px black;
 }
 
 .times15 {
