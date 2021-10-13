@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bgColor: #083b4c;
+    --cellColor: #1389b2;
+    --fizzColor: #0bd6a1;
+    --buzzColor: #ffd166;
+    --fizzBuzzColor: #f0466f;
+}
