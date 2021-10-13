@@ -41,6 +41,11 @@ body {
 
 /* #endregion */
 
+.container {
+    width: 80%;
+    margin: auto;
+}
+
 .row {
     justify-content: space-around;
     margin: 0 -1rem;
@@ -49,14 +54,14 @@ body {
 
 .cell {
     display: flex;
-    width: calc(100% / 7);
-    height: 100px;
+    width: 10%;
+    height: 150px;
     /* I have to make this linked to height */
     background-color: var(--cellColor);
     justify-content: space-around;
     align-items: center;
     font-size: 2rem;
-    margin: .5rem;
+    margin: 2rem;
     /* margin-top: 100%; */
     /* This down is just for vanity */
     box-shadow: 5px 5px black;
