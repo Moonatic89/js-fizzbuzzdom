@@ -11,3 +11,25 @@
     --buzzColor: #ffd166;
     --fizzBuzzColor: #f0466f;
 }
+
+body {
+    background-color: var(--bgColor);
+}
+
+.color_white {
+    color: white;
+}
+
+.text_center {
+    text-align: center;
+}
+
+.mt_3 {
+    margin-top: 3rem;
+}
+
+.fs_3 {
+    font-size: 3rem;
+}
+
+section {}
