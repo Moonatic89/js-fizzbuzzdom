@@ -6,9 +6,24 @@ Step 3 - Give some items (determined by a condition) a different style
 
 #Tools
     - For
-    - append / insertAdjacentHTML
+    - insertAdjacentHTML
     - Ifs (for style control)
     - CSS for page layout
 
 
 */
+
+
+//Variables init
+
+const dGrid = document.getElementById("dynamicGrid");
+const cell = document.createElement("div");
+
+//Cycle
+
+for (let i = 1; i <= 5; i++) {
+    //Append to html element
+    cell.insertAdjacentHTML("beforeend", `<div>${i}</div>`)
+    //  cell.append(i);
+    dGrid.append(cell);
+}

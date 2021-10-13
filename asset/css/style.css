@@ -16,6 +16,8 @@ body {
     background-color: var(--bgColor);
 }
 
+/* #region Little Framework */
+
 .color_white {
     color: white;
 }
@@ -32,4 +34,9 @@ body {
     font-size: 3rem;
 }
 
-section {}
+d_flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* #endregion */
