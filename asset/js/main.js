@@ -20,8 +20,8 @@ const dGrid = document.getElementById("dynamicGrid");
 
 //Cycle
 
-for (let i = 1; i <= 5; i++) {
+for (let i = 1; i <= 100; i++) {
     //Append to html element
-    dGrid.insertAdjacentHTML("beforeend", `<div>${i}</div>`)
+    dGrid.insertAdjacentHTML("beforeend", `<div class="cell">${i}</div>`)
     //  cell.append(i);
 }

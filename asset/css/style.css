@@ -40,3 +40,19 @@ body {
 }
 
 /* #endregion */
+
+.row {
+    justify-content: space-around;
+}
+
+.cell {
+    display: flex;
+    width: calc (100% / 7);
+    height: 100%;
+    /* I have to make this linked to height */
+    background-color: var(--cellColor);
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2rem;
+    margin: 1rem;
+}
