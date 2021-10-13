@@ -17,13 +17,11 @@ Step 3 - Give some items (determined by a condition) a different style
 //Variables init
 
 const dGrid = document.getElementById("dynamicGrid");
-const cell = document.createElement("div");
 
 //Cycle
 
 for (let i = 1; i <= 5; i++) {
     //Append to html element
-    cell.insertAdjacentHTML("beforeend", `<div>${i}</div>`)
+    dGrid.insertAdjacentHTML("beforeend", `<div>${i}</div>`)
     //  cell.append(i);
-    dGrid.append(cell);
 }

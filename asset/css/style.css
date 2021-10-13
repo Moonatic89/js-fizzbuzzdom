@@ -34,7 +34,7 @@ body {
     font-size: 3rem;
 }
 
-d_flex {
+.d_flex {
     display: flex;
     flex-wrap: wrap;
 }
