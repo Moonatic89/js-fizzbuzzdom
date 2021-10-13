@@ -43,16 +43,30 @@ body {
 
 .row {
     justify-content: space-around;
+    margin: 0 -1rem;
+    padding: 1rem;
 }
 
 .cell {
     display: flex;
-    width: calc (100% / 7);
-    height: 100%;
+    width: calc(100% / 7);
+    height: 100px;
     /* I have to make this linked to height */
     background-color: var(--cellColor);
     justify-content: space-around;
     align-items: center;
     font-size: 2rem;
     margin: 1rem;
+}
+
+.times15 {
+    background-color: var(--fizzBuzzColor);
+}
+
+.times5 {
+    background-color: var(--buzzColor);
+}
+
+.times3 {
+    background-color: var(--fizzColor);
 }

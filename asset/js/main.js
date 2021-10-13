@@ -21,7 +21,17 @@ const dGrid = document.getElementById("dynamicGrid");
 //Cycle
 
 for (let i = 1; i <= 100; i++) {
-    //Append to html element
-    dGrid.insertAdjacentHTML("beforeend", `<div class="cell">${i}</div>`)
-    //  cell.append(i);
+
+    if (i % 15 === 0) {
+
+        dGrid.insertAdjacentHTML("beforeend", `<div class="cell times15">fizzbuzz</div>`);
+    } else if (i % 5 === 0) {
+        dGrid.insertAdjacentHTML("beforeend", `<div class="cell times5">buzz</div>`);
+    } else if (i % 3 === 0) {
+        dGrid.insertAdjacentHTML("beforeend", `<div class="cell times3">fizz</div>`);
+    } else {
+        dGrid.insertAdjacentHTML("beforeend", `<div class="cell">${i}</div>`);
+    }
+
 }
+
